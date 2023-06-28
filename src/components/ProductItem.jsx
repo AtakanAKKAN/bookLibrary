@@ -22,7 +22,7 @@ const ProductItem = ({product}) => {
           <p>{about}</p>
         </div>
         
-        <Button onClick={handleClick} to={`bookLibrary/Product-Info/${id}`}>Görüntüle</Button>
+        <Button onClick={handleClick} to={`/Product-Info/${id}`}>Görüntüle</Button>
         
       </div>
    
