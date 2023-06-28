@@ -1,7 +1,11 @@
+import { useContext } from "react";
 import "../NotFound.css";
 import ButtonFound from "../UI/ButtonFound.jsx";
+import { MyContext } from "../Context/MyContext";
 
 const NotFound = () => {
+
+  const {handleClick} = useContext(MyContext);
 
 
   return (
@@ -21,7 +25,7 @@ const NotFound = () => {
         <h2 className="text-3xl">the page you are looking for not avaible!</h2>
       </div>
 
-      <ButtonFound to="/bookLibrary" className="text-3xl" >Go to Home</ButtonFound>
+      <ButtonFound onClick={handleClick} to="/bookLibrary" className="text-3xl" >Go to Home</ButtonFound>
     </section>
   );
 };

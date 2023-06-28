@@ -9,7 +9,7 @@ const Navbar = () => {
         <ul className="flex gap-16 text-2xl">
           <li className="max-sm:hidden">Kitaplar</li>
           <li>
-            <Link to="bookLibrary/Search" className="opacity-75">
+            <Link to="/bookLibrary/Search" className="opacity-75">
               Kitap Ara
             </Link>
           </li>
