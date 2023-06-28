@@ -15,7 +15,7 @@ function App() {
 
       <Routes>
         <Route
-          path="/"
+          path="/bookLibrary"
           element={
             <>
               <MainHeader />
@@ -23,8 +23,8 @@ function App() {
             </>
           }
         />
-        <Route path="/Search" element={<Search />} />
-        <Route path="/Product-Info/:id" element={<ProductInfo />} />
+        <Route path="bookLibrary/Search" element={<Search />} />
+        <Route path="bookLibrary/Product-Info/:id" element={<ProductInfo />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
 

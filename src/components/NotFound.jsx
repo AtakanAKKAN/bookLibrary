@@ -21,7 +21,7 @@ const NotFound = () => {
         <h2 className="text-3xl">the page you are looking for not avaible!</h2>
       </div>
 
-      <ButtonFound to="/" className="text-3xl" >Go to Home</ButtonFound>
+      <ButtonFound to="/bookLibrary" className="text-3xl" >Go to Home</ButtonFound>
     </section>
   );
 };

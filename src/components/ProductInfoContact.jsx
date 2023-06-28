@@ -7,7 +7,7 @@ const ProductInfoContact = ({ product }) => {
       <span className="text-xl my-5 w-[50%] text-center max-sm:text-justify max-sm:w-[90%]">
         {product.info}
       </span>
-      <Button className="my-3" to="/">
+      <Button className="my-3" to="/bookLibrary">
         Ana Sayfa
       </Button>
       {/* React Router Link Yönetme */}
