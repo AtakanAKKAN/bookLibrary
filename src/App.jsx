@@ -23,8 +23,8 @@ function App() {
             </>
           }
         />
-        <Route path="bookLibrary/Search" element={<Search />} />
-        <Route path="bookLibrary/Product-Info/:id" element={<ProductInfo />} />
+        <Route path="/bookLibrary/Search" element={<Search />} />
+        <Route path="/bookLibrary/Product-Info/:id" element={<ProductInfo />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
 
